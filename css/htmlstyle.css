@@ -1,0 +1,36 @@
+html body {
+  background-color: #f0f5f9;
+  margin:0;
+  padding: 0;
+}
+
+.js-clock {
+  display:block;
+  padding-right: 10px;
+  font-size: 15px;
+  text-align: right;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 70px;
+  color: #1e2022;
+
+}
+
+.left {
+  width: 50%;
+  height: 300px;
+  background-color: #c9d6df;
+  float: left;
+}
+
+.right {
+  width: 50%;
+  height: 500px;
+  background-color: #c9d6df;
+  float: right;
+}
