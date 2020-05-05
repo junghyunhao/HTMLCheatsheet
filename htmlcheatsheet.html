@@ -1,41 +1,156 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Cheatsheet</title>
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Playfair+Display&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/htmlstyle.css" />
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Cheatsheet</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Playfair+Display&display=swap" rel="stylesheet">
 
-  <body>
-    <nav class="js-clock">
-  <h1 class="js-title">00:00</h1>
+  <link rel="stylesheet" href="css/htmlstyle.css" />
+</head>
 
-    </nav>
+<body>
+  <nav class="js-clock">
+    <h1 class="js-title">00:00</h1>
 
-    <h2 class="title">
-      HTML Cheatsheet
-    </h2>
-    <div class="left">
-      <div class="tags">
-      <ul>
+  </nav>
+
+  <h2 class="title">
+    HTML Cheatsheet
+  </h2>
+  <div class="left">
+    <p class="topic">
+      STRUCTURE
+    </p>
+    <ul class="content" type="square">
       <li>
-        <a> is anchor tag~! 
+        <strong>div</strong> : Block container
       </li>
       <li>
-        <a>dd</a>
+        <strong>span</strong> : Inline container
       </li>
+      <li>
+        <strong>p</strong> : Paragraph(Block)
+      </li>
+      <li>
+        <strong>br</strong> : Line break
+      </li>
+      <li>
+        <strong>hr</strong> : Horizontal rule
+      </li>
+      <li>
+        <strong>h1 to h6</strong> : Headings
+      </li>
+    </ul>
+    <p class="topic">
+      LINKS
+    </p>
 
-      </ul>
-      <span>eee</span>
-    </div>
-    </div>
-    <div class="right"></div>
+    <ul class="content" type="square">
+      <li>
+        <strong>a href = " "</strong> : Page Link
+      </li>
+      <li>
+        <strong>a href = "mailto: " </strong> : Email link
+      </li>
+      <li>
+        <strong>a name = "name"</strong> : Anchor
+      </li>
+      <li>
+        <strong>a href = "#name"</strong> : Link to anchor
+      </li>
+    </ul>
+  </div>
+  <div class="middle">
+    <p class="topic">
+      TEXT & LISTS
+    </p>
+    <ul class="content" type="square">
+      <li>
+        <strong>strong</strong> : Strong emphasis(bold)
+      </li>
+      <li>
+        <strong>em</strong> : Emphasis(italic)
+      </li>
+      <li>
+        <strong>u</strong> : Underline Text
+      </li>
+      <li>
+        <strong>pre</strong> : Pre-fo­rmatted
+      </li>
+      <li>
+        <strong>ol</strong> : Ordered list
+      </li>
+      <li>
+        <strong>ol type= " "</strong> : Ordered list type A, a, I, i, 1
+      </li>
+      <li>
+        <strong>ul</strong> : Unordered list
+      </li>
+      <li>
+        <strong>ul type=" "</strong> : Unordered list bullet type: disc, circle, square
+      </li>
+      <li>
+        <strong>li</strong> : List item
+      </li>
+    </ul>
 
-    <script src="htmlcheatsheet.js"></script>
-    <script src="weather.js"></script>
+    <p class="topic">
+      TABLES
+    </p>
+    <ul class="content" type="square">
+      <li>
+        <strong>table</strong> Table
+      </li>
+      <li>
+        <strong>thread</strong> : Table header
+      </li>
+      <li>
+        <strong>tbody</strong> : Table body
+      </li>
+      <li>
+        <strong>tfoot</strong> : Table footer
+      </li>
+      <li>
+        <strong>tr</strong> : Table row
+      </li>
+      <li>
+        <strong>th</strong> : Header cell
+      </li>
+      <li>
+        <strong>td</strong> : Table cell
+      </li>
+    </ul>
+  </div>
+  <div class="right">
+    <p class="topic">
+      IMAGE
+    </p>
+    <ul class="content" type="square">
+      <li>
+        <strong>img src=" " alt ="text "</strong> Basic Image
+      </li>
+</ul>
+      <p class="topic">
+        FORMS
+      </p>
+      <ul class="content" type="square">
+        <li>
+          <strong>form</strong> : Form input group decleration
+        </li>
+        <li>
+          <strong>input</strong> : Input field within form
+        </li>
+        <li>
+          <strong>input type=" " </strong> : Input Field Type: text, password, checkbox, submit etc.
+        </li>
+        <li>
+          <strong>select</strong> : Select options from drop down list
+        </li>
+  </div>
+  <script src="htmlcheatsheet.js"></script>
 
 
-  </body>
+</body>
+
 </html>

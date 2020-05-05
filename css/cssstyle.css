@@ -1,9 +1,14 @@
 html body {
-  background-color: #f0f5f9;
+  background-color: #faf2f2;
   margin:0;
   padding: 0;
 }
 
+.boxmodel {
+  display:block;
+  margin: 0 auto;
+  width: 95%
+}
 .js-clock {
   display:block;
   padding-right: 10px;
@@ -24,35 +29,34 @@ html body {
 .left {
   width: 33.33333%;
   height: auto;
-  background-color: #c9d6df;
+  background-color: #f1d1d1;
   float: left;
 }
 
 .right {
   width: 33.33333%;
-  height: 500px;
-  background-color: #c9d6df;
+  height: auto;
+  background-color: #f1d1d1;
   float: right;
 }
 
 
 .middle {
   display: inline-block;
-  text-align: center;
   width: 33.33333%;
   height: auto;
-  background-color: #dbdbdb;
-}
+  background-color: #f3e1e1; }
 
-.topic {
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-size: 2em;
 
-}
+  .topic {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
 
-.content {
-  text-align: left;
-  font-family: 'Oswald', sans-serif;
-  font-size: 1em;
-}
+  }
+
+  .content {
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+  }

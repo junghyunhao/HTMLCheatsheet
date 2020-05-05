@@ -1,10 +1,180 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>CSS Cheatsheet</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>CSS Cheatsheet</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Playfair+Display&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/cssstyle.css" />
+</head>
+
+<body>
+  <nav class="js-clock">
+    <h1 class="js-title">00:00</h1>
+  </nav>
+
+  <h2 class="title">
+    CSS Cheatsheet
+  </h2>
+  <div class="left">
+    <p class="topic">
+      SELECTORS
+    </p>
+    <ul class="content" type="square">
+      <li>
+        <strong>div</strong> : all DIV tags
+      </li>
+      <li>
+        <strong>div,span</strong> : all DIV tags and all span tags
+      </li>
+      <li>
+        <strong>div span</strong> : all SPAN tags inside DIVs
+      </li>
+      <li>
+        <strong>#jojo</strong> : element with ID "jojo"
+      </li>
+      <li>
+        <strong>.box</strong> : all elements with CLASS "box"
+      </li>
+      <li>
+        <strong>ul#box</strong> : UL tag with ID "box"
+      </li>
+      <li>
+        <strong>a:link,a:active</strong> : links in normal state,in clicked state
+      </li>
+      <li>
+        <strong>a:hover</strong> : link with mouse over it
+      </li>
+      <li>
+        <strong>div>span</strong> : all SPANs one-level deep in a DIV
+      </li>
+
+    </ul>
+    <p class="topic">
+      TEXT
+    </p>
+
+    <ul class="content" type="square">
+      <li>
+        <strong>font-family</strong> : font used, e.g.Arial
+      </li>
+      <li>
+        <strong>font-size</strong> : text size, e.g. 60px, 3em
+      </li>
+      <li>
+        <strong>color</strong> : text color, #00000
+      </li>
+      <li>
+        <strong>font-weight</strong> : how bold the text is, e.g. bold
+      </li>
+      <li>
+        <strong>font-style</strong> : what style the text is e.g. italic
+      </li>
+      <li>
+        <strong>text-decoration</strong> : sets a variety of effects on text e.g. underline
+      </li>
+      <li>
+        <strong>text-align</strong> : how text is aligned, e.g. center
+      </li>
+      <li>
+        <strong>line-height</strong> : spacing between lines, e.g.2em
+      </li>
+      <li>
+        <strong>letter-spacing</strong> : spacing between letters, e.g.5px
+      </li>
+      <li>
+        <strong>text-decoration</strong> : sets a variety of effects on text e.g. underline
+      </li>
+      <li>
+        <strong>text-indent</strong> : indent of the first line, e.g. 2em
+      </li>
+      <li>
+        <strong>text-transform </strong> : applies formatting to text, e.g. upper-case, lowercase, capitalize
+      </li>
+      <li>
+        <strong>vertical-align</strong> : align relative to baseline, e.g. text-top
+      </li>
+    </ul>
+  </div>
+  <div class="middle">
+    <p class="topic">
+      BOX MODEL
+    </p>
+    <img class="boxmodel" src="https://w3bits.com/wp-content/uploads/css-box-model.jpg" alt="box model img" />
+    <p class="topic">
+      UNITS AND BORDERS
+    </p>
+    <ul class="content" type="square">
+      <li>
+        <strong>em</strong> : 1em equal to font size of parent(same as 100%)
+      </li>
+      <li>
+        <strong>%</strong> : Percentage
+      </li>
+      <li>
+        <strong>in</strong> : inches
+      </li>
+      <li>
+        <strong>pt</strong> : 1pt = 1/72in
+      </li>
+      <li>
+        <strong>pc</strong> : 1pc=12pt
+      </li>
+      <li>
+        <strong>border</strong> : set border style for all borders, e.g.solid,dotted
+      </li>
+      <li>
+        <strong>list-style-type</strong> : set style of bullets, e.g.square
+      </li>
+
+    </ul>
+
+  </div>
+  <div class="right">
+    <p class="topic">
+      POSITIONING
+    </p>
+    <ul class="content" type="square">
+      <li>
+        <strong>position</strong> : places elements on screen, e.g.absolute, fixed, relative
+      </li>
+      <li>
+        <strong>float</strong> : stacks elements horizontally in a particular direction, e.g.left
+      </li>
+      <li>
+        <strong>display</strong> : sets how the element is placed in the doc flow e.g. block,inline,none
+      </li>
+      <li>
+        <strong>z-index</strong> : sets the stacking order of elements e.g 1 is below 2
+      </li>
+      <li>
+        <strong>overflow</strong> :Sets what happens to content outside of container, e.g. auto, hidden
+      </li>
+    </ul>
+    <p class="topic">
+      EVERYTHING ELSE
+    </p>
+    <ul class="content" type="square">
+      <li>
+        <strong>background</strong> : sets background of an element, in the format : background:color,image,position
+      </li>
+      <li>
+        <strong>cursor</strong> : sets shape of cursor, e.g. pointer
+      </li>
+      <li>
+        <strong>outline</strong> : a border drawn around an element that does not affect the box model
+      </li>
+      <li>
+        <strong>clear</strong> : sets on what side a new line starts in
+        relation to nearby floated elements,
+        e.g. left, right, both
+      </li>
+    </ul>
+  </div>
+  <script src="htmlcheatsheet.js"></script>
+
+
+</body>
+
 </html>
